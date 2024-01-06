@@ -1,0 +1,291 @@
+body{
+    background-color:#3a3737 ;
+}
+
+.header__title{
+    position: relative;
+
+    background-color: #3a3737;
+}
+
+.header .header__title .header__browser a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem ;
+}
+
+.header .header__title .title{
+    color: wheat;
+    font-size: 4rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* navigator */
+
+.header__option{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    gap: 17rem;
+   
+}
+
+
+.header__option .header__nav {
+    font-size: smaller;
+    display:flex ;
+    flex-direction: row;
+    padding-left: 5rem;
+    padding: 2rem;
+    
+}
+
+
+.header .header__nav a{
+    font-size: x-large;
+    font-weight: 100;
+    padding-left: 1rem;
+}
+.header .header__option .header__call{
+    height: 5rem;
+    width: 8rem;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1;
+}
+
+.header .header__option .header__call a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding: 2rem 2rem;
+    justify-content: center;
+
+    
+
+}
+
+
+/* info */
+.info{
+    background-color: #3a3737;
+    padding-top:  2rem;
+    position: relative;
+    
+
+}
+
+.info .inform h1{
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: Tahoma;
+    color: rgba(214, 147, 233, 0.752);
+    display: flex;
+    justify-content: center;
+}
+
+.info .inform h2{
+    font-family: 'Times New Roman';
+    font-weight: 100;
+    color:white ;
+    display: flex;
+    justify-content:center;
+}
+
+.info .brand{
+    display: flex;
+    justify-content: center;
+}
+
+/* option */
+
+.choices{
+    background-color: #3a3737;
+    padding-top: 5rem;
+}
+.choices .option .tables{
+    border: 1px solid;
+    border-radius: .5rem;
+}
+
+.choices .text__title {
+    font-weight: 1000;
+    font-family: 'Times New Roman';
+    font-size: 39px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
+
+.choices .option{
+     display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5rem;
+  grid-gap:5rem;
+  height: 40rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.choices .option .tables{
+    background-color: rgb(26, 23, 23);
+    justify-content: center;
+}
+.choices .option .tables .table__top{
+    display: flex;
+    justify-content: center;
+    color: rgba(214, 147, 233, 0.752);
+}
+
+.choices .option .tables .table__brand{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.choices .option .tables .table__text{
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.choices .option .tables .table__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+
+.choices .option .tables .table__price h1{
+    font-size:3rem ;
+    font-weight: 500rem;
+    color: white;
+}
+
+.choices .option .tables .table__price a{ 
+    border: 4px solid;
+    border-radius: 1rem;
+    border-color:rgba(214, 147, 233, 0.752);
+    color: rgba(214, 147, 233, 0.752);
+    width: 8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* price design */
+.choices .option .tables .table__price a{
+    font-size: 1.5rem ; 
+    text-decoration: none;
+}
+/* hover */
+.choices .option .tables .table__price a:hover{
+  background-color: rgb(216, 125, 241) ;
+  color: black; 
+}
+
+/* new item */
+.item__head{
+    padding-top: 5rem;
+     color: white;
+     font-size: xx-large;
+     display: flex;
+     justify-content: center;
+}
+
+.item{
+    color: white;
+    background-color: rgb(26, 23, 23);
+    display: flex;
+}
+.item .item__descrip h1{
+    color: rgb(216, 125, 241);
+
+}
+.item__price{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    gap: 8rem;
+}
+.item__descrip .item__price h1{
+    color: white;
+    font-size:3rem ;
+    font-weight: 500rem;
+   
+
+}
+
+
+ .item__price a{
+    border: 4px solid;
+    border-radius: 1rem;
+    border-color:rgba(214, 147, 233, 0.752);
+    color: rgba(214, 147, 233, 0.752);
+    width: 8rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem ; 
+    text-decoration: none;
+}
+
+.item__price a:hover{
+    background-color: rgb(216, 125, 241) ;
+    color: black; 
+}
+
+/* category */
+.categor{
+    padding: 5rem;
+    
+}
+
+.categor .text{
+    font-size:x-large ;
+    font-weight: 1000;
+    color: white;
+    display: flex;
+    justify-content: center ;
+}
+.container img{
+    position: relative;
+}
+
+.categor .container .pic img{
+    position: absolute;
+  
+}
+.categor .container .defimg img{
+
+}
+
+.categor .container .defimg img:hover{
+    z-index: 1;
+    opacity: 0;
+}
+
+
+/* extra */
+.extra{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(26, 23, 23) ;
+}
+.extra .branding h1{
+    color: white;
+
+}
+.extra .branding img{
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+    padding-left: 6rem;
+}
